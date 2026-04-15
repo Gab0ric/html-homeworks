@@ -89,15 +89,12 @@ span {
 }
 
 .text {
-  padding-top: 68px;
-  padding-left: 43px;
-  padding-bottom: 85px;
+  padding: 68px 43px 85px;
 }
 
 button.button2 {
-  margin-top: 44px;
+  margin: 44px;
   border: none;
-  display: flex;
   align-items: center;
   padding: 11px 27px;
   border-radius: 6px;
@@ -109,4 +106,8 @@ button.button2 {
   font-weight: 700;
   line-height: 20px; /* 125% */
   text-transform: uppercase;
+}
+
+.foto {
+  width: 507px;
 }
