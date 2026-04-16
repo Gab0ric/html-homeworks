@@ -1,3 +1,7 @@
+* {
+  font-family: "CeraPro", sans-serif;
+}
+
 .container {
   padding: 30px 120px 52px;
 }
@@ -68,7 +72,7 @@ button.headerBtn {
   text-transform: uppercase;
 }
 
-span {
+.spank {
   color: #46a358;
   font-family: "Cera Pro";
   font-size: 70px;
@@ -93,7 +97,7 @@ span {
 }
 
 button.button2 {
-  margin: 44px;
+  margin-top: 44px;
   border: none;
   align-items: center;
   padding: 11px 27px;
@@ -110,4 +114,193 @@ button.button2 {
 
 .foto {
   width: 507px;
+}
+
+.container3 {
+  display: flex;
+  margin-top: 30px;
+}
+
+.sidebar {
+  background: #fbfbfb;
+}
+
+.h1 {
+  padding: 14px 20px 10px;
+  color: #3d3d3d;
+  font-family: "Cera Pro";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 88.889% */
+}
+
+ul.MenuList1 {
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px 150px 30px;
+}
+
+.MenuList1 {
+  color: #3d3d3d;
+  font-family: "Cera Pro";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.MenuList1.active {
+  color: #46a358;
+  font-family: "Cera Pro";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 266.667% */
+}
+
+.SALE {
+  width: 310px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul.menuLIst {
+  display: flex;
+  gap: 40px;
+}
+
+li.menuLIst {
+  color: #3d3d3d;
+  font-family: "Cera Pro";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 106.667% */
+  border-bottom: 3px solid transparent;
+}
+
+.menuLIst.active {
+  border-color: #46a358;
+  color: #46a358;
+  font-family: "Cera Pro";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 106.667% */
+}
+
+.menuLISt {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.strelka {
+  padding-top: 3px;
+}
+
+.container4 {
+  flex: 1;
+  margin-left: 30px;
+}
+
+.tovar {
+  padding-top: 38px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 33px 58px;
+}
+
+.superogromniupenis {
+}
+
+.plants1 {
+  padding: 31px 4px 19px;
+  background: #fbfbfb;
+}
+
+.plants2 {
+  padding: 25px 4px;
+  background: #fbfbfb;
+}
+
+.plants3 {
+  padding: 24px 4px 26px;
+  background: #fbfbfb;
+}
+
+.plants4 {
+  padding: 6px 13px 8px 21px;
+  background: #fbfbfb;
+}
+
+.plants5 {
+  padding: 23px 4px 27px;
+  background: #fbfbfb;
+}
+
+.plants6 {
+  padding: 23px 4px 27px;
+  background: #fbfbfb;
+}
+
+.plants7 {
+  padding: 18px 4px 32px;
+  background: #fbfbfb;
+}
+
+.plants8 {
+  padding: 28px 4px 22px;
+  background: #fbfbfb;
+}
+
+.plants9 {
+  padding: 19px 4px 31px;
+  background: #fbfbfb;
+}
+
+.Plintys {
+  display: flex;
+  flex-direction: column;
+  margin-top: 12px;
+}
+
+.activator {
+  color: #46a358;
+  font-family: "Cera Pro";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 88.889% */
+  margin-top: 6px;
+}
+
+.box {
+  background-color: white;
+  color: #3d3d3d;
+  border: 1px solid black;
+  width: 25px;
+  height: 25px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #e5e5e5;
+}
+
+.container6 {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  padding: 45px 43px;
+  gap: 10px;
+}
+
+.box.active {
+  background: #46a358;
+  color: #fff;
 }
