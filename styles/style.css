@@ -23,11 +23,13 @@ li.menuListItem {
   padding: 8px 0 25px;
   border-bottom: 3px solid transparent;
   font-size: 16px;
+  font-family: "Cera Pro Regular";
 }
 
 li.menuListItem.active {
   font-weight: 700;
   border-color: #46a358;
+  font-family: "Cera Pro Bold";
 }
 
 button.headerBtn {
@@ -53,9 +55,8 @@ button.headerBtn {
 
 .p1 {
   color: #3d3d3d;
-  font-family: "Cera Pro";
+  font-family: "Cera Pro Medium";
   font-size: 14px;
-  font-style: normal;
   font-weight: 500;
   line-height: 16px; /* 114.286% */
   letter-spacing: 1.4px;
@@ -64,9 +65,8 @@ button.headerBtn {
 
 .p2 {
   color: #3d3d3d;
-  font-family: "Cera Pro";
+  font-family: "Cera Pro Black";
   font-size: 70px;
-  font-style: normal;
   font-weight: 900;
   line-height: 70px; /* 100% */
   text-transform: uppercase;
@@ -74,9 +74,8 @@ button.headerBtn {
 
 .spank {
   color: #46a358;
-  font-family: "Cera Pro";
+  font-family: "Cera Pro Black";
   font-size: 70px;
-  font-style: normal;
   font-weight: 900;
   line-height: 70px;
   text-transform: uppercase;
@@ -85,9 +84,8 @@ button.headerBtn {
 .p3 {
   max-width: 69%;
   color: #727272;
-  font-family: "Cera Pro";
+  font-family: "Cera Pro Regular";
   font-size: 14px;
-  font-style: normal;
   font-weight: 400;
   line-height: 24px; /* 171.429% */
 }
@@ -104,9 +102,8 @@ button.button2 {
   border-radius: 6px;
   background: #46a358;
   color: #fff;
-  font-family: "Cera Pro";
+  font-family: "Cera Pro Bold";
   font-size: 16px;
-  font-style: normal;
   font-weight: 700;
   line-height: 20px; /* 125% */
   text-transform: uppercase;
@@ -119,6 +116,7 @@ button.button2 {
 .container3 {
   display: flex;
   margin-top: 30px;
+  gap: 30px;
 }
 
 .sidebar {
@@ -128,7 +126,7 @@ button.button2 {
 .h1 {
   padding: 14px 20px 10px;
   color: #3d3d3d;
-  font-family: "Cera Pro";
+  font-family: "Cera Pro Bold";
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -138,12 +136,13 @@ button.button2 {
 ul.MenuList1 {
   display: flex;
   flex-direction: column;
-  padding: 0 10px 150px 30px;
+  padding: 0 10px 0 30px;
+  margin-bottom: 377px;
 }
 
 .MenuList1 {
   color: #3d3d3d;
-  font-family: "Cera Pro";
+  font-family: "Cera Pro Regular";
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -152,7 +151,7 @@ ul.MenuList1 {
 
 .MenuList1.active {
   color: #46a358;
-  font-family: "Cera Pro";
+  font-family: "Cera Pro Bold";
   font-size: 15px;
   font-style: normal;
   font-weight: 700;
@@ -175,7 +174,7 @@ ul.menuLIst {
 
 li.menuLIst {
   color: #3d3d3d;
-  font-family: "Cera Pro";
+  font-family: "Cera Pro Regular";
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -186,7 +185,7 @@ li.menuLIst {
 .menuLIst.active {
   border-color: #46a358;
   color: #46a358;
-  font-family: "Cera Pro";
+  font-family: "Cera Pro Bold";
   font-size: 15px;
   font-style: normal;
   font-weight: 700;
@@ -195,8 +194,10 @@ li.menuLIst {
 
 .menuLISt {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
   gap: 8px;
+  font-family: "Cera Pro Regular";
+  color: #3d3d3d;
 }
 
 .strelka {
@@ -205,16 +206,14 @@ li.menuLIst {
 
 .container4 {
   flex: 1;
-  margin-left: 30px;
 }
 
 .tovar {
-  padding-top: 38px;
+  margin-top: 38px;
   display: flex;
   flex-wrap: wrap;
   gap: 33px 58px;
 }
-
 
 .plants1 {
   padding: 31px 4px 19px;
@@ -265,11 +264,12 @@ li.menuLIst {
   display: flex;
   flex-direction: column;
   margin-top: 12px;
+  font-family: "Cera Pro Regular";
 }
 
 .activator {
   color: #46a358;
-  font-family: "Cera Pro";
+  font-family: "Cera Pro Regular";
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -280,25 +280,41 @@ li.menuLIst {
 .box {
   background-color: white;
   color: #3d3d3d;
-  border: 1px solid black;
-  width: 25px;
-  height: 25px;
+  border: 1px solid #e5e5e5;
+  width: 35px;
+  height: 35px;
   border-radius: 4px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid #e5e5e5;
+  cursor: pointer;
 }
 
 .container6 {
   display: flex;
-  flex-direction: row;
   justify-content: end;
-  padding: 45px 43px;
+  margin-top: 90px;
+  padding-right: 43px;
+}
+
+.knopki {
+  display: flex;
   gap: 10px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.knopki li {
+  display: flex;
 }
 
 .box.active {
+  font-family: "Cera Pro Bold";
   background: #46a358;
   color: #fff;
+}
+
+.box {
+  font-family: "Cera Pro Light";
 }
