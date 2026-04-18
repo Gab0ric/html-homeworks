@@ -26,7 +26,7 @@ li.menuListItem {
   font-family: "Cera Pro Regular";
 }
 
-li.menuListItem.active {
+li.menuListItem:hover {
   font-weight: 700;
   border-color: #46a358;
   font-family: "Cera Pro Bold";
@@ -322,3 +322,64 @@ li.menuLIst {
 li.memnuLISt {
   font-family: "Cera Pro Regular";
 }
+
+.menuList > li:hover > ul {
+  display: flex;
+  flex-direction: column;
+  padding-top: 37px;
+}
+
+.sublist {
+  position: absolute;
+  display: none;
+}
+
+.sublist li {
+  padding: 8px 0 8px 14px;
+  background-color: #edf6ee;
+  color: #3d3d3d;
+  font-family: "Cera Pro Regular";
+  font-weight: 400;
+}
+
+.ming {
+  display: flex;
+  align-items: baseline;
+  position: relative;
+  gap: 88.97px;
+}
+
+.ming:hover {
+  background: #1a712a;
+  color: #fff;
+  font-family: "Cera Pro Bold";
+}
+
+.sublist li.ming:hover .tvar {
+  transform: rotate(180deg);
+  filter: brightness(0) invert(1);
+}
+
+.tvar {
+  margin-right: 17px;
+}
+
+.pdf {
+  display: none;
+  position: absolute;
+  padding-left: 2px;
+  top: -300%;
+  left: 100%;
+  z-index: 1;
+}
+
+.sublist li.ming:hover .pdf {
+  display: flex;
+  flex-direction: column;
+}
+
+.pdf li {
+  padding: 8px 0 8px 14px;
+  width: 200%;
+}
+
