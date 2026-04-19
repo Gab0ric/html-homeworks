@@ -226,6 +226,7 @@ li.menuLIst {
 }
 
 .plants3 {
+  position: relative;
   padding: 24px 4px 26px;
   background: #fbfbfb;
 }
@@ -383,3 +384,420 @@ li.memnuLISt {
   width: 200%;
 }
 
+.container67 {
+  padding: 69px 119px;
+}
+
+.topblock {
+  display: flex;
+  flex-direction: row;
+  gap: 28px;
+  margin-bottom: 138px;
+}
+
+.anastasia {
+  position: relative;
+  display: flex;
+  background: #fbfbfb;
+  width: 586px;
+  height: 250px;
+}
+
+.p4 {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  color: #3d3d3d;
+  text-align: right;
+  font-family: "Cera Pro Black";
+  text-transform: uppercase;
+}
+
+.p5 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #727272;
+  text-align: right;
+  font-family: "Cera Pro Regular";
+}
+
+.find {
+  display: flex;
+  justify-content: end;
+}
+
+.findmore {
+  margin-top: 36px;
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 6px;
+  background: #46a358;
+  padding: 11px 27px;
+  gap: 2px;
+  color: #fff;
+  font-family: "Cera Pro Medium";
+}
+
+.text2 {
+  padding: 37px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  max-width: 73%;
+}
+
+.zvetok5 {
+  z-index: 1;
+  position: absolute;
+  width: 287px;
+  top: -21%;
+  left: -3%;
+}
+
+.herman {
+  position: relative;
+  display: flex;
+  background: #fbfbfb;
+  width: 586px;
+  height: 250px;
+}
+
+.p6 {
+  color: #3d3d3d;
+  text-align: right;
+  font-family: "Cera Pro Black";
+  text-transform: uppercase;
+}
+
+.p7 {
+  color: #727272;
+  text-align: right;
+  font-family: "Cera Pro Regular";
+}
+
+.find2 {
+  display: flex;
+  justify-content: end;
+}
+
+.findmore2 {
+  display: flex;
+  align-items: center;
+  border: none;
+  padding: 11px 27px;
+  gap: 2px;
+  margin-top: 36px;
+  border-radius: 6px;
+  background: #46a358;
+  color: #fff;
+  font-family: "Cera Pro Medium";
+}
+
+.text3 {
+  padding: 37px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  max-width: 73%;
+}
+
+.zvetok3 {
+  z-index: 1;
+  position: absolute;
+  width: 289px;
+  top: -21%;
+  left: -3%;
+}
+
+.p8 {
+  color: #3d3d3d;
+  text-align: center;
+  font-family: "Cera Pro Bold";
+  padding-bottom: 15px;
+}
+
+.p9 {
+  color: #727272;
+  text-align: center;
+  font-family: "Cera Pro Regular";
+  padding-bottom: 35px;
+}
+
+.nizofr {
+  width: 268px;
+}
+
+.text4 {
+  background: #fbfbfb;
+  width: 268px;
+  height: 167px;
+}
+
+.readmore {
+  display: flex;
+  align-items: center;
+  border: none;
+  background-color: #fbfbfb;
+  gap: 3px;
+  padding: 17px 9px 9px 9px;
+}
+
+.p10 {
+  color: #46a358;
+  font-family: "Cera Pro Medium";
+  padding: 9px 9px 2px;
+}
+
+.p11 {
+  color: #3d3d3d;
+  font-family: "Cera Pro Bold";
+  padding: 2px 9px 2px;
+  max-width: 76%;
+}
+
+.p12 {
+  color: #727272;
+  font-family: "Cera Pro Regular";
+  padding: 2px 7px 9px 9px;
+}
+
+.nizofr {
+  width: 268px;
+}
+
+.text5 {
+  background: #fbfbfb;
+  width: 268px;
+  height: 167px;
+}
+
+.readmore2 {
+  display: flex;
+  align-items: center;
+  border: none;
+  background-color: #fbfbfb;
+  gap: 3px;
+  padding: 17px 9px 9px 9px;
+}
+
+.p13 {
+  color: #46a358;
+  font-family: "Cera Pro Medium";
+  padding: 9px 9px 2px;
+}
+
+.p14 {
+  color: #3d3d3d;
+  font-family: "Cera Pro Bold";
+  padding: 2px 9px 2px;
+  max-width: 76%;
+}
+
+.p15 {
+  color: #727272;
+  font-family: "Cera Pro Regular";
+  padding: 4px 9px 5px;
+}
+
+.nizofr2 {
+  width: 268px;
+}
+
+.niz1 {
+  display: flex;
+  gap: 44px;
+}
+
+.text6 {
+  background: #fbfbfb;
+  width: 268px;
+  height: 167px;
+}
+
+.readmore3 {
+  color: #46a358;
+  font-family: "Cera Pro Medium";
+  display: flex;
+  align-items: center;
+  border: none;
+  background-color: #fbfbfb;
+  gap: 3px;
+  padding: 26px 9px 9px;
+}
+
+.p16 {
+  color: #46a358;
+  font-family: "Cera Pro Medium";
+  padding: 9px 9px 2px;
+}
+
+.p17 {
+  color: #3d3d3d;
+  font-family: "Cera Pro Bold";
+  padding: 2px 9px 2px;
+  max-width: 71%;
+}
+
+.p18 {
+  color: #727272;
+  font-family: "Cera Pro Regular";
+  padding: 0 0 0 8px;
+  max-width: 100%;
+}
+
+.nizofr3 {
+  width: 268px;
+}
+
+.text7 {
+  background: #fbfbfb;
+  width: 268px;
+  height: 167px;
+}
+
+.readmore4 {
+  color: #3d3d3d;
+  font-family: "Cera Pro Medium";
+  display: flex;
+  align-items: center;
+  border: none;
+  background-color: #fbfbfb;
+  gap: 3px;
+  padding: 17px 9px 9px 9px;
+}
+
+.p19 {
+  color: #46a358;
+  font-family: "Cera Pro Medium";
+  padding: 9px 9px 2px;
+}
+
+.p20 {
+  color: #3d3d3d;
+  font-family: "Cera Pro Bold";
+  padding: 2px 9px 2px;
+  max-width: 71%;
+}
+
+.p21 {
+  color: #727272;
+  font-family: "Cera Pro Regular";
+  padding: 4px 9px 5px;
+  max-width: 100%;
+}
+
+.nizofr4 {
+  width: 268px;
+}
+
+ul.pokypki {
+  display: flex;
+  justify-content: center;
+  gap: 26px;
+}
+
+.superogromniupenis {
+  position: relative;
+}
+
+.home3 {
+  display: none;
+  position: absolute;
+  bottom: 65px;
+  left: 19%;
+}
+
+.home3 .pokypki svg path {
+  fill: #000;
+}
+
+.home3 button:hover svg path {
+  fill: #46a358;
+}
+
+.korzina {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: #ffffff;
+  border-radius: 4px;
+  width: 35px;
+  height: 35px;
+}
+
+.superogromniupenis:hover .home3 {
+  display: flex;
+}
+
+.plants2:hover {
+  border-top: 1px solid #46a358;
+}
+
+.plants1:hover {
+  border-top: 1px solid #46a358;
+}
+
+.plants3:hover {
+  border-top: 1px solid #46a358;
+}
+
+.plants4:hover {
+  border-top: 1px solid #46a358;
+}
+
+.plants5:hover {
+  border-top: 1px solid #46a358;
+}
+
+.plants6:hover {
+  border-top: 1px solid #46a358;
+}
+
+.plants7:hover {
+  border-top: 1px solid #46a358;
+}
+
+.plants8:hover {
+  border-top: 1px solid #46a358;
+}
+
+.plants9:hover {
+  border-top: 1px solid #46a358;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: #a5a5a5;
+  font-family: "Cera Pro Regular";
+  font-size: 18px;
+}
+
+.newold {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+}
+
+.skidka {
+  position: absolute;
+  background: #46a358;
+  width: 80px;
+  height: 29px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 14px;
+  left: 0;
+  color: #fff;
+  font-family: "Cera Pro Medium";
+  font-size: 16px;
+}
