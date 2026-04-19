@@ -22,13 +22,11 @@ ul.menuList {
 li.menuListItem {
   padding: 8px 0 25px;
   border-bottom: 3px solid transparent;
-  font-size: 16px;
   font-family: "Cera Pro Regular";
 }
 
 li.menuListItem:hover {
-  font-weight: 700;
-  border-color: #46a358;
+  border-bottom: 3px solid #46a358;
   font-family: "Cera Pro Bold";
 }
 
@@ -216,47 +214,56 @@ li.menuLIst {
 }
 
 .plants1 {
+  border-top: 1px solid transparent;
   padding: 31px 4px 19px;
   background: #fbfbfb;
 }
 
 .plants2 {
+  border-top: 1px solid transparent;
   padding: 25px 4px;
   background: #fbfbfb;
 }
 
 .plants3 {
+  border-top: 1px solid transparent;
   position: relative;
   padding: 24px 4px 26px;
   background: #fbfbfb;
 }
 
 .plants4 {
+  border-top: 1px solid transparent;
   padding: 6px 13px 8px 21px;
   background: #fbfbfb;
 }
 
 .plants5 {
+  border-top: 1px solid transparent;
   padding: 23px 4px 27px;
   background: #fbfbfb;
 }
 
 .plants6 {
+  border-top: 1px solid transparent;
   padding: 23px 4px 27px;
   background: #fbfbfb;
 }
 
 .plants7 {
+  border-top: 1px solid transparent;
   padding: 18px 4px 32px;
   background: #fbfbfb;
 }
 
 .plants8 {
+  border-top: 1px solid transparent;
   padding: 28px 4px 22px;
   background: #fbfbfb;
 }
 
 .plants9 {
+  border-top: 1px solid transparent;
   padding: 19px 4px 31px;
   background: #fbfbfb;
 }
@@ -545,6 +552,7 @@ li.memnuLISt {
   display: flex;
   align-items: center;
   border: none;
+  font-family: "Cera Pro Medium";
   background-color: #fbfbfb;
   gap: 3px;
   padding: 17px 9px 9px 9px;
@@ -581,6 +589,7 @@ li.memnuLISt {
 
 .readmore2 {
   display: flex;
+  font-family: "Cera Pro Medium";
   align-items: center;
   border: none;
   background-color: #fbfbfb;
@@ -613,7 +622,7 @@ li.memnuLISt {
 
 .niz1 {
   display: flex;
-  gap: 44px;
+  gap: 52px;
 }
 
 .text6 {
@@ -623,7 +632,7 @@ li.memnuLISt {
 }
 
 .readmore3 {
-  color: #46a358;
+  color: #3d3d3d;
   font-family: "Cera Pro Medium";
   display: flex;
   align-items: center;
@@ -800,4 +809,56 @@ ul.pokypki {
   color: #fff;
   font-family: "Cera Pro Medium";
   font-size: 16px;
+}
+
+.read:hover .readmore {
+  color: #46a358;
+  font-family: "Cera Pro Medium";
+}
+
+.readmor {
+  fill: #3d3d3d;
+}
+
+.read:hover .readmore .readmor {
+  fill: #46a358;
+}
+
+.read2:hover .readmore2 {
+  color: #46a358;
+  font-family: "Cera Pro Medium";
+}
+
+.readmor2 {
+  fill: #3d3d3d;
+}
+
+.read2:hover .readmore2 .readmor {
+  fill: #46a358;
+}
+
+.read3:hover .readmore3 {
+  color: #46a358;
+  font-family: "Cera Pro Medium";
+}
+
+.readmor3 {
+  fill: #3d3d3d;
+}
+
+.read3:hover .readmore3 .readmor {
+  fill: #46a358;
+}
+
+.read4:hover .readmore4 {
+  color: #46a358;
+  font-family: "Cera Pro Medium";
+}
+
+.readmor {
+  fill: #3d3d3d;
+}
+
+.read4:hover .readmore4 .readmor {
+  fill: #46a358;
 }
