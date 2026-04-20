@@ -799,8 +799,7 @@ ul.pokypki {
 .skidka {
   position: absolute;
   background: #46a358;
-  width: 80px;
-  height: 29px;
+  padding: 8px;
   display: flex;
   align-items: center;
   justify-content: center;
