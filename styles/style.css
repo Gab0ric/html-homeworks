@@ -1053,11 +1053,8 @@ ul.pokypki {
   align-items: center;
 }
 
-.lastnav {
-  background: #fbfbfb;
-}
-
 .vse {
+  background: #fbfbfb;
   display: flex;
   padding: 33px 155px 29px 25px;
   border-bottom: 1px solid rgba(70, 163, 88, 0.2);
