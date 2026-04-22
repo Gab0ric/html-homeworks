@@ -1,0 +1,26 @@
+@mixin felx($ai: start, $jc: start, $fd: row, $g: 0, $fw: nowrap) {
+  display: flex;
+  align-items: $ai;
+  justify-content: $jc;
+  flex-direction: $fd;
+  flex-wrap: nowrap;
+  gap: $g;
+}
+
+@mixin ceraProRegular($fs, $lh) {
+  font-family: "Cera Pro Regular", sans-serif;
+  font-size: $fs;
+  line-height: $lh;
+}
+
+@mixin ceraProMedium($fs, $lh) {
+  font-family: "Cera Pro Medium", sans-serif;
+  font-size: $fs;
+  line-height: $lh;
+}
+
+@mixin ceraProBold($fs, $lh) {
+  font-family: "Cera Pro Bold", sans-serif;
+  font-size: $fs;
+  line-height: $lh;
+}
