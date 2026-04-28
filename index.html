@@ -103,38 +103,58 @@
           </li>
           <li class="menuListItem">Blogs</li>
         </ul>
-        <button class="headerBtn">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="20"
-            height="20"
-            viewBox="0 0 20 20"
-            fill="none"
-          >
-            <path
-              d="M18.1592 10.1007H8.125"
-              stroke="white"
-              stroke-width="1.5"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-            <path
-              d="M15.7205 7.6709L18.1605 10.1009L15.7205 12.5309"
-              stroke="white"
-              stroke-width="1.5"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-            <path
-              d="M13.6333 6.35817C13.3583 3.37484 12.2416 2.2915 7.79997 2.2915C1.88247 2.2915 1.88247 4.2165 1.88247 9.99984C1.88247 15.7832 1.88247 17.7082 7.79997 17.7082C12.2416 17.7082 13.3583 16.6248 13.6333 13.6415"
-              stroke="white"
-              stroke-width="1.5"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-          </svg>
-          Login
-        </button>
+        <div class="poisklog">
+          <button class="lypa">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 20 20"
+              fill="none"
+            >
+              <path
+                d="M14.5726 16.0029C10.5755 19.1865 4.988 18.3056 2.02842 14.6542C-0.828088 11.129 -0.64944 6.04347 2.44943 2.82482C5.65137 -0.500594 10.6854 -0.944524 14.3346 1.78337C15.642 2.76051 16.6183 4.00364 17.2542 5.50838C17.8938 7.02186 18.0881 8.59654 17.8663 10.2205C17.6452 11.837 17 13.2775 15.9499 14.6217C16.0349 14.6773 16.1255 14.7173 16.1904 14.7822C17.3448 15.9311 18.4947 17.0843 19.6491 18.2331C19.9227 18.5054 20.0589 18.8225 19.9776 19.2047C19.8165 19.9651 18.9107 20.2586 18.3298 19.7366C18.0575 19.4925 17.807 19.2234 17.5484 18.9649C16.6002 18.0177 15.6526 17.0699 14.7044 16.1227C14.665 16.0853 14.6238 16.0503 14.5726 16.0029ZM15.9605 8.98677C15.9705 5.12689 12.8529 2.00627 8.98261 2.00065C5.12292 1.99503 2.00781 5.09068 1.99094 8.94806C1.97408 12.8173 5.08544 15.9467 8.96762 15.9648C12.8117 15.9829 15.9505 12.8504 15.9605 8.98677Z"
+                fill="#3D3D3D"
+              />
+            </svg>
+          </button>
+          <button class="korzinka">
+            <img src="./img/korzinka.png" class="löl" />
+          </button>
+          <button class="headerBtn" id="loginBtn">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 20 20"
+              fill="none"
+            >
+              <path
+                d="M18.1592 10.1007H8.125"
+                stroke="white"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M15.7205 7.6709L18.1605 10.1009L15.7205 12.5309"
+                stroke="white"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M13.6333 6.35817C13.3583 3.37484 12.2416 2.2915 7.79997 2.2915C1.88247 2.2915 1.88247 4.2165 1.88247 9.99984C1.88247 15.7832 1.88247 17.7082 7.79997 17.7082C12.2416 17.7082 13.3583 16.6248 13.6333 13.6415"
+                stroke="white"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            Login
+          </button>
+          <div id="loader" class="loader"></div>
+        </div>
       </div>
       <div class="container2">
         <div class="text">
@@ -156,19 +176,141 @@
       <div class="container3">
         <div class="sidebar">
           <h3 class="h1">Categories</h3>
-          <ul class="MenuList1">
-            <li class="MenuList1 active">House Plants</li>
-            <li class="MenuList1">Potter Plants</li>
-            <li class="MenuList1">Seeds</li>
-            <li class="MenuList1">Small Plants</li>
-            <li class="MenuList1">Big Plants</li>
-            <li class="MenuList1">Succulents</li>
-            <li class="MenuList1">Trerrariums</li>
-            <li class="MenuList1">Gardening</li>
-            <li class="MenuList1">Accessories</li>
-          </ul>
-          <div>
-            <img src="./img/SALE.png" class="SALE" />
+          <div class="pedrik">
+            <label class="messi10">
+              <input
+                type="radio"
+                name="category"
+                value="house"
+                class="radio-hidden"
+              />
+              <span class="cr10">House Plants</span>
+              <span class="sp10">(33)</span>
+            </label>
+            <label class="messi11">
+              <input
+                type="radio"
+                name="category"
+                value="potter"
+                class="radio-hidden"
+              />
+              <span class="cr11">Potter Plants</span>
+              <span class="sp11">(12)</span>
+            </label>
+            <label class="messi12">
+              <input
+                type="radio"
+                name="category"
+                value="seeds"
+                class="radio-hidden"
+              />
+              <span class="cr12">Seeds</span>
+              <span class="sp12">(65)</span>
+            </label>
+            <label class="messi13">
+              <input
+                type="radio"
+                name="category"
+                value="small"
+                class="radio-hidden"
+              />
+              <span class="cr13">Small Plants</span>
+              <span class="sp13">(39)</span>
+            </label>
+            <label class="messi14">
+              <input
+                type="radio"
+                name="category"
+                value="big"
+                class="radio-hidden"
+              />
+              <span class="cr14">Big Plants</span>
+              <span class="sp14">(23)</span>
+            </label>
+            <label class="messi15">
+              <input
+                type="radio"
+                name="category"
+                value="succulents"
+                class="radio-hidden"
+              />
+              <span class="cr15">Succulents</span>
+              <span class="sp15">(17)</span>
+            </label>
+            <label class="messi16">
+              <input
+                type="radio"
+                name="category"
+                value="terrariums"
+                class="radio-hidden"
+              />
+              <span class="cr16">Terrariums</span>
+              <span class="sp16">(19)</span>
+            </label>
+            <label class="messi17">
+              <input
+                type="radio"
+                name="category"
+                value="gardening"
+                class="radio-hidden"
+              />
+              <span class="cr17">Gardening</span>
+              <span class="sp17">(13)</span>
+            </label>
+            <label class="messi18">
+              <input
+                type="radio"
+                name="category"
+                value="accessories"
+                class="radio-hidden"
+              />
+              <span class="cr18">Accessories</span>
+              <span class="sp18">(18)</span>
+            </label>
+          </div>
+          <div class="pricecolor">
+            <p class="range">Price Range</p>
+            <input type="range" class="rangik" />
+            <p class="colorprice">
+              Price: <span class="colorit">$39 - $1230 </span>
+            </p>
+            <button class="filtryi">Filter</button>
+          </div>
+          <p class="razmer">Size</p>
+          <div class="barca">
+            <label class="messi1">
+              <input
+                type="radio"
+                name="size"
+                value="small"
+                class="radio-hidden"
+              />
+              <span class="smallik2">Small</span>
+              <span class="p199">(119)</span>
+            </label>
+            <label class="messi2">
+              <input
+                type="radio"
+                name="size"
+                value="medium"
+                class="radio-hidden"
+              />
+              <span class="smallik3">Medium</span>
+              <span class="p86">(86)</span>
+            </label>
+            <label class="messi3">
+              <input
+                type="radio"
+                name="size"
+                value="large"
+                class="radio-hidden"
+              />
+              <span class="smallik1">Large</span>
+              <span class="p78">(78)</span>
+            </label>
+            <div class="fotka999">
+              <img src="./img/SALE.png" class="SALE" />
+            </div>
           </div>
         </div>
         <div class="container4">
@@ -190,7 +332,7 @@
             <div class="superogromniupenis">
               <img src="./img/plant1.png" class="plants1" />
               <span class="Plintys">Barberton Daisy</span>
-              <span class="activator">$119.00</span>
+              <p class="activator">$119.00</p>
               <div class="home3">
                 <ul class="pokypki">
                   <li class="pokypki">
@@ -260,7 +402,7 @@
             <div class="superogromniupenis">
               <img src="./img/plant2.png" class="plants2" />
               <span class="Plintys">Angel Wing Begonia</span>
-              <span class="activator">$169.00</span>
+              <p class="activator">$169.00</p>
               <div class="home3">
                 <ul class="pokypki">
                   <li class="pokypki">
@@ -1422,5 +1564,10 @@
         </div>
       </div>
     </div>
+    <script>
+      document.getElementById("loginBtn").addEventListener("click", () => {
+        window.location.href = "./register.html";
+      });
+    </script>
   </body>
 </html>
