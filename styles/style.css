@@ -1896,3 +1896,20 @@ ul.MenuList11 {
     transform: rotate(360deg);
   }
 }
+
+.minimini {
+  position: relative;
+}
+
+.foto {
+  position: relative;
+  width: 518px;
+  z-index: 1;
+}
+
+.minifoto {
+  position: absolute;
+  width: 135px;
+  top: 66%;
+  right: 63%;
+}
